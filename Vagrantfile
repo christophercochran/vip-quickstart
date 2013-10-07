@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "std-precise32"
+  config.vm.box = "precise32"
   config.vm.network :private_network, ip: "10.86.73.80"
 
   # Map MySQL to local port 3306
